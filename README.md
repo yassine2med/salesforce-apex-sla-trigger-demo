@@ -2,6 +2,8 @@
 
 # salesforce-apex-sla-trigger-demo
 
+[![CI](https://github.com/yassine2med/salesforce-apex-sla-trigger-demo/actions/workflows/ci.yml/badge.svg)](https://github.com/yassine2med/salesforce-apex-sla-trigger-demo/actions/workflows/ci.yml) ![Python](https://img.shields.io/badge/python-3.10%2B-3776ab) ![License](https://img.shields.io/badge/license-MIT-8fb08a)
+
 An Apex trigger, a service class and a test class that stamp SLA timestamps on a service ticket custom object: opened time, due time by priority, resolved time and whether the SLA was met. A small Python tool, `slacheck`, reads the Apex source and checks it for common mistakes. It does not compile, run or deploy anything.
 
 ![Screenshot](docs/screenshot.png)
